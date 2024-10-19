@@ -2,7 +2,7 @@
 function createBoard(){
     let gameboard = document.getElementById("game-board");
     gameboard.innerHTML = "";
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 9; i++) {
         gameboard.innerHTML += 
         `<div class="card">
             <div class="card-inner">

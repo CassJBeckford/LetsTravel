@@ -1,8 +1,14 @@
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .card {
     background-color: transparent;
     width: 200px;
     height: 300px;
     perspective: 1000px; 
+    padding-bottom: 10px;
   }
 
   .card-inner {
